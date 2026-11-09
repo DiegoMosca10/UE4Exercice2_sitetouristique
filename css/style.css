@@ -1,0 +1,98 @@
+html * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 99vw;
+    max-height: 100vh;
+    overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
+
+header {
+    width: 30vh;
+    width: 100vw;
+}
+
+footer {
+    background-color: rgb(218, 31, 31);
+}
+
+header h1 {
+
+    text-align: center;
+    width: 100vw;
+}
+
+header section {
+    background-color: rgb(218, 31, 31);
+}
+
+header nav {
+    display: flex;
+    justify-content: right;
+}
+
+header nav ul {
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+
+aside img {
+    width: 500px;
+    max-height: 350px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+
+}
+
+footer nav ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+nav ul li {
+    list-style: none;
+    display: flex;
+
+}
+
+
+nav ul li a:hover {
+    background-color: white;
+    color: rgb(218, 31, 31);
+}
+
+footer h3 {
+    text-align: end;
+}
+
+main section img {
+    width: 1200px;
+    height: 600px;
+    margin-top: 30px;
+}
+
+nav ul {
+    padding-left: 20px;
+    padding-right: 20px;
+}
