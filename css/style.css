@@ -97,3 +97,24 @@ nav ul {
     padding-left: 20px;
     padding-right: 20px;
 }
+
+#deux {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#deux img {
+    width: 800px;
+    height: 300px;
+}
+
+#d {
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+#p {
+    color: white;
+    max-width: 50vw;
+}
