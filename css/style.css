@@ -11,7 +11,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: larger;
     background-color: antiquewhite;
-    color: dimgray;
+    color: rgb(41, 33, 71);
 }
 
 header {
@@ -143,4 +143,9 @@ nav ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+}
+
+img {
+    border-radius: 20px;
+    box-shadow: 10px 5px 10px rgb(76, 75, 75);
 }
