@@ -21,7 +21,7 @@ header {
 
 footer {
     background-color: darkred;
-    height: 10vh;
+    height: 15vh;
     color: white;
 }
 
@@ -128,9 +128,18 @@ nav ul {
     height: 300px;
 }
 
-#trois {}
-
 #t {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#quatre img {
+    width: 800px;
+    height: 300px;
+}
+
+#q {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
